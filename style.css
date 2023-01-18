@@ -165,3 +165,33 @@ footer {
  text-align: center;
  font-size: 14px;
 }
+
+/* media queries */
+@media (min-width: 700px) {
+  :root {
+    --bg-url: url(./assets/giphy.gif);
+  }
+
+  .light {
+    --bg-url: url(./assets/giphy-dia.gif);
+  }
+}
+
+/* animation */
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}
