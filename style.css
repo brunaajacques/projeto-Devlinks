@@ -76,11 +76,12 @@ body * {
   z-index: 1;
   transform: translateY(-50%);
 
-  animation: slide-back 0.2s;
+  
 }
 
 .light #switch button {
-  animation: slide-in 0.2s forwards;
+  right: 0;
+  left: initial;
 }
 
 #switch button:hover {
